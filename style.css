@@ -70,6 +70,18 @@ fieldset legend, section h2{
     color: #e1e1e6;
     padding-bottom:16px;
 }
+@media(max-width: 480px){
+    fieldset > div{
+        flex-direction: column;
+    }
+    fieldset button{
+        width: 100%;
+    }
+}
+/* Form Fim */
+
+
+/* Input */
 .lista-participantes{
     padding: 20px 0;
 }
@@ -77,10 +89,6 @@ fieldset legend, section h2{
     border: var(--border);
     border-radius: 8px;
 }
-/* Form Fim */
-
-
-/* Input */
 table{
     border-collapse: collapse;
 }
